@@ -1,0 +1,45 @@
+﻿@page
+@model WebApplication2.Pages.projects.MultSystem.ProjectInfo
+@{
+}
+
+
+<br />
+<h2>Project</h2>
+
+   
+<form method="POST">
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Array_ID___Addr</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Array_ID___Addr" value="@Model.Array_ID___Address" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Current Usage</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Current_Usage" value="@Model.Current_Usage" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Cost_per_KWh</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Cost_per_KWh" value="@Model.Cost_per_KWh" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Total_Cost</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Total_Cost" value="@Model.Total_Cost" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="offset-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

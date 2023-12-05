@@ -1,0 +1,3 @@
+﻿SET IDENTITY_INSERT [dbo].[projects] ON
+INSERT INTO [dbo].[projects] ([id], [Array ID - Address], [Current Usage], [Cost per KWh], [Total Cost], [Solar Cost], [+ Insure], [Est Roof & Electrical upgrades], [Rebates + property tax abatement], [Tax Incentives], [Total Rebates + Incentive], [Panel Count], [Panel Size (Watts)], [Solar Size (DC)], [Product Ratio], [1st Yr Production (AC)], [FED ITC], [85% MACRS], [State Depreciation], [Estimated NYSERDA], [Property tax abatement], [Net Project Cost], [Cost - Watt], [projectName], [email], [phone], [address]) VALUES (7, 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A')
+SET IDENTITY_INSERT [dbo].[projects] OFF
